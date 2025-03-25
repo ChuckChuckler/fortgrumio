@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fort Grumio</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="section header">
+        <h1 class="title">FORT GRUMIO</h1>
+        <img src="imgs/grumio2.png" class="coolSoldierGrumio">
+        <h3 class="speculation">the greatest roman fort in the last five years probably i dont actually know</h3>
+    </div>
+    <br>
+    <hr class="header-intro" id="header-intro">
+    <br>
+    <div class="section intro" id="introSection">
+        <div class="flexbox">
+            <div class="flex1">
+                <div class="innerP">
+                    <p class="introP">After the sheer disrespect Grumio endured in the Caecilius household-- harsh treatment from Metella, losing his girlfriend to that caudex Clemens, and overall blatant disregard-- Grumio had decided that enough was enough. As many do, he had hit that point of his life where his options were growing scarce. Honestly, he had started considering beating random farmers with clubs for fun. However, the eruption of Vesuvius was enough to push him into a new direction: military.</p>
+                    <p class="introP">Of course, he…lacked much of the skill needed to be a soldier. He was far from preferred age, further still from physical fitness. Though, he did make a splendid peacock. So splendid, in fact, that he was hired as an on-site cook for a particular legionary fort. No one can quite recall what the previous name was. All that is known is that Grumio was just so incredibly amazing that the fort was immediately renamed after him. Because Grumio's just so cool like that, y'know?</p>
+                </div>
+            </div>
+            <div class="flex2">
+                <img src="imgs/grumio3.png" class="introPic grumioAnxius">
+                <br>
+                <br>
+                <img src="imgs/grumio1.jpg" class="introPic epicGrumio">
+            </div>
+        </div>
+        <h3 class="motto">Omnia Pro Grumione</h3>
+    </div>
+    <br>
+    <hr class="intro-faq" id="intro-faq">
+    <br>
+    <div class="section faq">
+        <div class="flexbox2">
+            <div class="faqFlex">
+                <h1 class="faqTitle">FAQ</h1>
+                <h2 class="q"><b>Q:</b> What qualifications does one need to be part of Fort Grumio?</h2>
+                <h3 class="a"><b>A:</b> Do you think we know? We just like Grumio.</h3>
+                <br>
+                <h2 class="q"><b>Q:</b> I'm in a military fort already. Can I transfer to Fort Grumio?</h2>
+                <h3 class="a"><b>A:</b> Ask your legate.</h3>
+                <br>
+                <h2 class="q"><b>Q:</b> Will Grumio be at the fort to cook for me?</h2>
+                <h3 class="a"><b>A:</b> Yes, he will be cooking at the fort. Maybe, if you're nice enough. Or if you pay him.</h3>
+            </div>
+            <div class="qnaFlex">
+                <div class="qnaHeader">
+                    <h2 class="infoMsg">GrumioBOT</h2>
+                    <h3 class="moreInfoMsg">Ask GrumioBOT your questions!</h3>
+                </div>
+                <div class="qnaBody" id="qnaBody">
+                </div>
+                <div class="qnaFooter">
+                    <input type="text" class="msgToSend" id="msgToSend">
+                    <button class="sendMsg" id="sendMsg" onclick="sendMsg()">></button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <button onclick="explore()" class="exploreBtn">Explore Fort Grumio</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

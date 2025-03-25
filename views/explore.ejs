@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header header2">
+        <h1 class="title">Fort Grumio: Exploration</h1>
+        <img src="imgs/grumio5.jpg" class="otherGrumio">
+        <br>
+        <br>
+        <button class="exploreBtn" onclick="home()">Back to Home</button>
+    </div>
+    <hr class="header-exterior">
+    <div>
+        <div class="infoDiv">
+            <h3 class="fortInfoTitle">Exterior</h3>
+            <p class="fortInfoP">Fort Grumio, like other Roman forts, is rectangular in shape. Of course, it's better than all other Roman forts in the sense that it has Grumio in it, but regardless, all Roman forts hold the same structure. They're built with stone and mud bricks. On the exterior: high defensive walls, ramparts, and lookout towers, as one would expect of a military fort.</p>
+            <br>
+            <br>
+            <div class="imgCarousel">
+                <img id="exterior" class="fortImgs" src="imgs/exterior/exterior1.jpg">
+                <button class="nextbtn" onclick="next('exterior')">Next</button>
+            </div>
+        </div>
+        <hr class="exterior-principia">
+        <div class="infoDiv">
+            <h3 class="fortInfoTitle">Principia</h3>
+            <p class="fortInfoP">The principia, located in the center, is better known as the fort's headquarters. Here, offices are located, and orders are issued by the commanding officer. This is also the site of religious ceremonies. And of course, where the pay is kept.</p>
+            <br>
+            <br>
+            <div class="imgCarousel">
+                <img id="principia" class="fortImgs" src="imgs/principia/principia1.png">
+                <button class="nextbtn" onclick="next('principia')">Next</button>
+            </div>
+        </div>
+        <hr class="principia-praetorium">
+        <div class="infoDiv">
+            <h3 class="fortInfoTitle">Praetorium</h3>
+            <p class="fortInfoP">The praetorium is the commanding officer's residence. It's a large villa in which the commanding officer would live with his family and slaves. Its design was based on the typical style of Roman houses at the time. Lucky, huh? Grumio should get a house like this. </p>
+            <br>
+            <br>
+            <div class="imgCarousel">
+                <img class="fortImgs" id="praetorium" src="imgs/praetorium/praetorium1.jpg">
+                <button class="nextbtn" onclick="next('praetorium')">Next</button>
+            </div>
+        </div>
+        <hr class="praetorium-horrea">
+        <div class="infoDiv">
+            <h3 class="fortInfoTitle">Horrea</h3>
+            <p class="fortInfoP">These are the granaries. Grumio is cool and all, but the typical Roman soldier diet consisted majorly of bread. The granaries hold up to sixth months' worth of grain (~500 men to feed! That's a lot). Though, aside from grain, they hold other consumables such as oil and wine.</p>
+            <br>
+            <br>
+            <div class="imgCarousel">
+                <img class="fortImgs" id="horreum" src="imgs/horreum/horreum1.jpg">
+                <button class="nextbtn" onclick="next('horreum')">Next</button>
+            </div>
+        </div>
+        <hr class="horrea-barracks">
+        <div class="infoDiv">
+            <h3 class="fortInfoTitle">Barracks </h3>
+            <p class="fortInfoP">The barracks, of course, are where the soldiers stayed. Each block of barracks is split into squad rooms, holding eight men-- as well as their armor and weapons-- each. Women and children, too, live in the barracks, most likely alongside their husbands (though, it isn't impossible for a woman to be in the Roman army).</p>
+            <br>
+            <br>
+            <div class="imgCarousel">
+                <img class="fortImgs" id="barracks" src="imgs/barracks/barracks1.jpg">
+                <button class="nextbtn" onclick="next('barracks')">Next</button>
+            </div>
+        </div>
+        <hr class="barracks-vicus">
+        <div class="infoDiv">
+            <h3 class="fortInfoTitle">Vicus</h3>
+            <p class="fortInfoP">The vicus is the settlement located outside the fort wall. It's almost like a miniature town. As a town would, it holds shops, houses, workshops, temples, baths, and taverns. Maybe you can even find Grumio walking down the street, taking his tenth much-needed break of the day. </p>
+            <br>
+            <br>
+            <div class="imgCarousel">
+                <img class="fortImgs" id="vicus" src="imgs/vicus/vicus1.jpg">
+                <button class="nextbtn" onclick="next('vicus')">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="scripts/script2.js"></script>
+</body>
+</html>

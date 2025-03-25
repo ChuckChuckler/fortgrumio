@@ -1,0 +1,291 @@
+@keyframes imgHover{
+    from{width: 30vw}
+    to{width: 33vw};
+}
+
+@keyframes imgUnhover{
+    to{width: 30vw}
+    from{width: 33vw};
+}
+
+body{
+    background-color: #443730ff;
+}
+
+.header{
+    text-align: center;
+}
+
+.section{
+    height: 100%;
+    position: relative;
+}
+
+.title{
+    font-size: 80px;
+    color: #f7dad9ff;
+    font-family: "Bona Nova SC", serif;
+}
+
+.coolSoldierGrumio{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: #550c18ff double 10px;
+}
+
+.otherGrumio{
+    width: 40%;
+    border: #550c18ff double 10px;
+}
+
+.speculation{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 5px;
+    width: 100%;
+    color: #a5907eff;
+    font-family: "Bona Nova SC", serif;
+}
+
+.introPic{
+    position: absolute;
+    height: 15vw;
+    border: #550c18ff double 10px;
+}
+
+.epicGrumio{
+    margin-top: 200px;
+}
+
+.motto{
+    text-decoration: underline;
+    font-size: 4vw;
+    position: absolute;
+    bottom: -70;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f7dad9ff;
+    font-family: "Playfair Display", serif;
+}
+
+.introP{
+    font-size: 135%;
+    color: #a5907eff;
+    font-family: "EB Garamond", serif;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    opacity: 0;
+}
+
+.flex1{
+    width: 70%;
+}
+
+.flex2{
+    width: 30%;
+}
+
+.innerP{
+    width: 90%;
+    margin: auto;
+    border:  #550c18ff solid 2px;
+    background-color: rgb(39, 36, 33);
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.faqFlex{
+    width: 60%;
+    border: #550c18ff solid 2px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f7dad9ff;
+}
+
+.faqTitle{
+    color: rgb(39, 36, 33);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3vw;
+    font-family: "Bona Nova SC", serif;
+}
+
+.q{
+    color: #443730ff;
+    font-family: "Playfair Display", serif;
+}
+
+.a{
+    color: #786452ff;
+    font-family: "EB Garamond", serif;
+}
+
+.qnaFlex{
+    width: 35%;
+    background-color: #786452ff;
+    height: 600px;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+}
+
+.qnaHeader{
+    text-align: center;
+    background-color: #550c18ff;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.infoMsg{
+    line-height: 10px;
+    text-decoration: underline;
+    color: #f7dad9ff;
+    font-family: "Playfair Display", serif;
+}
+
+.moreInfoMsg{
+    color: #f7dad9ff;
+    font-family: "EB Garamond", serif;
+}
+
+.qnaFooter{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+}
+
+.msgToSend{
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    margin-top: 2.5px;
+}
+
+.sendMsg{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid gray;
+    background-color:white;
+}
+
+.sendMsg:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+.qnaBody{
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 75%;
+    background-color: rgb(247, 232, 231);
+}
+
+.msgHolder{
+    font-family: "EB Garamond", serif;
+}
+
+hr{
+    border-color: transparent;
+}
+
+.exploreBtn{
+    background-color:#786452ff;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 2px #f7dad9ff solid;
+    color:#f7dad9ff;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+.exploreBtn:hover{
+    background-color: rgb(107, 90, 76);
+    border-color: rgb(212, 190, 189);
+    color: rgb(212, 190, 189);
+}
+
+.header2{
+    height: 100%;
+}
+
+.fortImgs{
+    width: 30vw;
+    border: #550c18ff double 10px;
+}
+
+.fortImgs:hover{
+    animation: imgHover 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 33vw;
+}
+
+.fortImgs:not(hover){
+    animation: imgUnhover 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 30vw;
+}
+
+.infoDiv{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.imgCarousel{
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    margin-left: 3vw;
+} 
+
+.fortInfoP{
+    font-size: 25px;
+    color:rgb(202, 180, 160);
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+}
+
+.fortInfoTitle{
+    font-size: 40px;
+    text-align: center;
+    color:#f7dad9ff;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+}
+
+.nextbtn{
+    background-color: #786452ff;
+    color:rgb(233, 220, 208);
+    border: 1px groove rgb(233, 220, 208);
+}
+
+.nextbtn:hover{
+    background-color:#443730ff;
+    color: white;
+}
