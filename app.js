@@ -1,7 +1,7 @@
 import express, { response } from "express";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-let apikey = "AIzaSyAuxj_ccinn3sOTQ4oiNSvVrtt1v0ZrDVc";
+let apikey = "placeholder_api_key";
 
 const genai = new GoogleGenerativeAI(apikey);
 const model = genai.getGenerativeModel( {model: "gemini-2.0-flash" });
